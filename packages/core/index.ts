@@ -11,6 +11,6 @@ const installer = makeInstaller(components);
 
 
 
-export * from '@elementPlus/components'
+export * from '../components'
 export default installer;
 
