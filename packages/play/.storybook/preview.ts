@@ -1,5 +1,5 @@
 import type { Preview } from "@storybook/vue3";
-import "elementPlus/dist/index.css"
+import "elementPlus/dist/theme/index.css";
 const preview: Preview = {
   parameters: {
     controls: {
@@ -12,3 +12,4 @@ const preview: Preview = {
 };
 
 export default preview;
+

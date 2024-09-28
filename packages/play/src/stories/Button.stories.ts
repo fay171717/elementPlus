@@ -4,7 +4,7 @@ import { set } from "lodash-es";
 
 import { ErButton, ErButtonGroup } from "elementPlus";
 
-//import 'toy-element/dist/theme/Button.css';
+import 'elementPlus/dist/theme/Button.css';
 
 type Story = StoryObj<typeof ErButton> & { argTypes?: ArgTypes };
 
