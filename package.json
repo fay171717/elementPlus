@@ -8,7 +8,9 @@
     "story": "pnpm --filter @elementPlus/play storybook",
     "docs:dev": "pnpm --filter @elementPlus/docs dev",
     "docs:build": "pnpm --filter @elementPlus/docs build",
-    "test": "cross-env NODE_ENV=test pnpm --filter @elementPlus/components test",
+    "test":"run-p test-utils test-comp",
+    "test-comp": "cross-env NODE_ENV=test pnpm --filter @elementPlus/components test",
+    "test-utils": "cross-env NODE_ENV=test pnpm --filter @elementPlus/utils test",
     "build": "cross-env NODE_ENV=production pnpm --filter elementPlus build",
     "build:dev": "cross-env NODE_ENV=developement pnpm --filter elementPlus build:watch"
   },
@@ -51,6 +53,9 @@
     "@storybook/addon-interactions": "8.3.3",
     "@storybook/addon-links": "8.3.3",
     "@storybook/vue3-vite": "8.3.3",
+    "@vitest/coverage-v8": "1.4.0",
+    "@vue/test-utils": "2.4.5",
+    "jsdom": "24.0.0",
     "elementPlus": "workspace:*",
     "lodash-es": "4.17.21",
     "vue": "3.4.19"
