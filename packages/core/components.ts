@@ -4,7 +4,8 @@ import {
     ErIcon,
     ErCollapse,
     ErCollapseItem,
-    ErAlert
+    ErAlert,
+    ErTooltip
 } from "../components";
 
 import type { Plugin } from "vue";
@@ -15,5 +16,6 @@ export default [
     ErIcon,
     ErCollapse, 
     ErCollapseItem,
-    ErAlert
+    ErAlert,
+    ErTooltip
 ] as Plugin[];
