@@ -7,6 +7,7 @@ import {
   ErCollapse,
   ErCollapseItem,
   ErIcon,
+  ErTooltip,
  
 } from "..";
 import { get, map } from "lodash-es";
@@ -18,7 +19,7 @@ const comps = [
   ErCollapse,
   ErCollapseItem,
   ErIcon,
-
+ErTooltip
 ] as Plugin[];
 
 describe("components/index", () => {

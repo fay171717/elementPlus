@@ -6,7 +6,7 @@ import { delay, defer, filter, map } from "lodash-es";
 import dts from "vite-plugin-dts";
 import shell from "shelljs";
 import { readFileSync } from "fs";
-import hooks from "./hooksPlugin";
+import hooks from "../../lib/vite-plugins/hooksPlugin";
 import terser from "@rollup/plugin-terser";
 import { visualizer } from "rollup-plugin-visualizer";
 
