@@ -11,11 +11,11 @@
     "test": "run-p test-utils test-comp",
     "test-comp": "cross-env NODE_ENV=test pnpm --filter @elementPlus/components test",
     "test-utils": "cross-env NODE_ENV=test pnpm --filter @elementPlus/utils test",
-    "build":"run-s build-hooks build-comp",
+    "build": "run-s build-hooks build-comp",
     "build-hooks": "cross-env NODE_ENV=production pnpm --filter @elementPlus/hooks build",
     "build-comp": "cross-env NODE_ENV=production pnpm --filter elementPlus build",
     "build:dev": "cross-env NODE_ENV=developement pnpm --filter elementPlus build:watch",
-    "release":"pnpm --filter elementPlus release"
+    "release": "pnpm --filter elementPlus release"
   },
   "keywords": [],
   "author": "",
@@ -46,11 +46,13 @@
     "vite": "5.1.4",
     "vite-plugin-dts": "3.9.1",
     "vitest": "1.4.0",
-    "vue-tsc": "1.8.27"
+    "vue-tsc": "1.8.27",
+    "vue3-i18n": "^1.1.5"
   },
   "dependencies": {
     "@elementPlus/components": "workspace:*",
     "@elementPlus/hooks": "workspace:*",
+    "@elementPlus/locale": "workspace:*",
     "@elementPlus/theme": "workspace:*",
     "@elementPlus/utils": "workspace:*",
     "@elementPlus/vite-plugins": "workspace:*",

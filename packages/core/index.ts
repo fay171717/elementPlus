@@ -1,4 +1,4 @@
-import { makeInstaller } from "@elementPlus/utils";
+import makeInstaller  from "./makeInstaller";
 import components from "./components";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import {fas} from "@fortawesome/free-solid-svg-icons"
@@ -14,5 +14,6 @@ const installer = makeInstaller(components);
 
 
 export * from '@elementPlus/components'
+export * from '@elementPlus/locale'
 export default installer;
 

@@ -3,7 +3,7 @@ import {
   containerPreview,
   componentPreview,
 } from "@vitepress-demo-preview/plugin";
-//import apiTable from "vitepress-api-table";
+import apiTable from "vitepress-api-table";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -23,7 +23,7 @@ export default defineConfig({
     sidebar: [
       {
         text: "指南",
-        collapsed: false,//明暗主题切换的开关
+        collapsed: false, //明暗主题切换的开关
         items: [{ text: "快速开始", link: "/get-started" }],
       },
       {
@@ -42,7 +42,7 @@ export default defineConfig({
     config: (md) => {
       md.use(containerPreview);
       md.use(componentPreview);
-    /*   md.use(apiTable) */
+      md.use(apiTable);
     },
   },
 });

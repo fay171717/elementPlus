@@ -18,6 +18,8 @@
     "vitepress-preview-component": "workspace:*"
   },
   "dependencies": {
-    "@vitepress-demo-preview/component": "^2.3.2"
+    "@vitepress-demo-preview/component": "^2.3.2",
+    "vitepress-api-table": "workspace:*"
+
   }
 }

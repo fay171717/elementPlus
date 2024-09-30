@@ -3,11 +3,7 @@ import { each } from "lodash-es";
 //既是插件也是组件
 type SFCWithInstall<T> = T & Plugin;
 
-//安装函数用来注册component中的多个组件作为插件
-export function makeInstaller(components:Plugin[]){
-    const installer = (app:App)=>each(components,(c)=>app.use(c));
-    return installer
-}
+
 //用于将一个 Vue 组件转换为一个插件，使其可以通过 app.use() 全局注册。适用于需要在多个地方使用的通用组件。
 export const withInstall = <T>(component: T) => {
   (component as SFCWithInstall<T>).install = (app: App) => {
