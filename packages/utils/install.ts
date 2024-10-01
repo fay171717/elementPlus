@@ -1,5 +1,5 @@
 import type { App, Plugin } from "vue";
-import { each } from "lodash-es";
+
 //既是插件也是组件
 type SFCWithInstall<T> = T & Plugin;
 

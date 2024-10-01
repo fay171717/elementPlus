@@ -8,7 +8,14 @@ import {
     ErTooltip,
     ErPopconfirm,
     ErDropdown,
-    ErMessage
+    ErMessage,
+    ErNotification,
+    ErInput,
+    ErMessageBox,
+    ErLoading,
+    ErSwitch,
+    ErSelect,
+    ErForm
 } from "../components";
 
 import type { Plugin } from "vue";
@@ -23,5 +30,12 @@ export default [
     ErTooltip,
     ErPopconfirm,
     ErDropdown,
-    ErMessage
+    ErMessage,
+    ErNotification,
+    ErInput,
+    ErMessageBox,
+    ErLoading,
+    ErSwitch,
+    ErSelect,
+    ErForm
 ] as Plugin[];

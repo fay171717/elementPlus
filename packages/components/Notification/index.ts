@@ -1,6 +1,6 @@
-import Message from "./methods";
-import { withInstallFunction } from "@elementPlus/utils";
+import Notification from "./methods";
+import {withInstallFunction} from '@elementPlus/utils'
 
-export const ErMessage = withInstallFunction(Message, "$message");
+export const ErNotification = withInstallFunction(Notification, '$notify')
 
-export * from "./types";
+export * from './types'

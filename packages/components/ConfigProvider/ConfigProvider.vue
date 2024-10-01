@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { ConfigProviderProps } from "./types";
+import type { ConfigProviderProps } from "./types.ts";
 import { provideGlobalConfig } from "./hooks.ts";
 
 defineOptions({
