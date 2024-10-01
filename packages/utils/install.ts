@@ -14,7 +14,7 @@ export const withInstall = <T>(component: T) => {
   return component as SFCWithInstall<T>;
 };
 
-/* //把函数转换成插件
+//把函数转换成插件
 export const withInstallFunction = <T>(fn: T, name: string) => {
   (fn as SFCWithInstall<T>).install = (app: App) => {
     //使用 app.config.globalProperties 将 fn 添加到 Vue 应用程序的全局属性中，键名为 name。
@@ -22,4 +22,3 @@ export const withInstallFunction = <T>(fn: T, name: string) => {
   };
   return fn as SFCWithInstall<T>;
 };
- */

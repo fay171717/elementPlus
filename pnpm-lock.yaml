@@ -26,6 +26,9 @@ importers:
       '@elementPlus/vite-plugins':
         specifier: workspace:*
         version: link:lib/vite-plugins
+      '@elementPlus/workspace':
+        specifier: 'link:'
+        version: 'link:'
       '@storybook/addon-essentials':
         specifier: 8.3.3
         version: 8.3.3(storybook@8.3.3)

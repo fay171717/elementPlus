@@ -7,7 +7,8 @@ import {
     ErAlert,
     ErTooltip,
     ErPopconfirm,
-    ErDropdown
+    ErDropdown,
+    ErMessage
 } from "../components";
 
 import type { Plugin } from "vue";
@@ -21,5 +22,6 @@ export default [
     ErAlert,
     ErTooltip,
     ErPopconfirm,
-    ErDropdown
+    ErDropdown,
+    ErMessage
 ] as Plugin[];
