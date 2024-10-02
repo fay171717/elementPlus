@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "Toy-Element"
+  name: "elementPlus"
   text: "高仿 ElementPlus 组件库"
   tagline: My great project tagline
   actions:
@@ -22,4 +22,3 @@ features:
     title: 文档和示例丰富
     details: 在线文档包含详细的组件文档和示例，以展示你的组件库的功能和使用方法。提供清晰的示例代码、演示和解释，帮助用户理解每个组件的用途、属性和事件，并能够快速集成到他们的项目中。
 ---
-

@@ -35,7 +35,7 @@ export default defineConfig({
 
     socialLinks: [
       //替换成github地址
-      { icon: "github", link: "https://github.com/EricWXY/toy-element" },
+      { icon: "github", link: "https://github.com/EricWXY/elementPlus" },
     ],
   },
   markdown: {
