@@ -1,9 +1,10 @@
-name:Generate Code Coverage
+name: Generate Code Coverage
 
 on:
+  # 添加了冒号以正确分隔不同的触发条件
   workflow_dispatch:
   schedule:
-    - cron: '0 0,12 * * *'
+    - cron: '0 0,12 * * *'  # 运行时间：每天的0点和12点
 
 jobs:
   test:
@@ -15,14 +16,16 @@ jobs:
 
       - name: Setup Node
         uses: actions/setup-node@v3
+        with:
+          node-version: '16'  # 根据需要指定Node.js版本
 
-      - name: Install pnpm 
-        run: npm install -g pnpm 
+      - name: Install pnpm
+        run: npm install -g pnpm
 
       - name: Install dependencies
         run: pnpm install --no-frozen-lockfile
 
-      - name: Run test
+      - name: Run tests  # 将 "Run test" 修改为 "Run tests" 以保持一致性
         run: pnpm test
 
       - name: Upload coverage reports to Codecov
