@@ -5,7 +5,8 @@ import { resolve } from "path";
 import { readFileSync } from "fs";
 import shell from "shelljs";
 import { delay } from "lodash-es";
-import hooks from "../../lib/vite-plugins/hooksPlugin";
+/* import hooks from "../../../lib/vite-plugins/hooksPlugin"; */
+import { hooksPlugin as hooks } from "@elementPlus/vite-plugins";
 import terser from "@rollup/plugin-terser";
 import { visualizer } from "rollup-plugin-visualizer";
 

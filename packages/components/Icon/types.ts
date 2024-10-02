@@ -4,7 +4,7 @@ export interface IconProps {
   border?: boolean;
   fixedWidth?: boolean;
   flip?: "horizontal" | "vertical" | "both";
-  //icon: object | Array<string> | string | IconDefinition;
+  icon: object | Array<string> | string | IconDefinition;
   mask?: object | Array<string> | string;
   listItem?: boolean;
   pull?: "right" | "left";

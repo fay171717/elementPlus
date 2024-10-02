@@ -15,7 +15,8 @@ import {
     ErLoading,
     ErSwitch,
     ErSelect,
-    ErForm
+    ErForm,
+    ErFormItem
 } from "../components";
 
 import type { Plugin } from "vue";
@@ -37,5 +38,6 @@ export default [
     ErLoading,
     ErSwitch,
     ErSelect,
-    ErForm
+    ErForm,
+    ErFormItem
 ] as Plugin[];

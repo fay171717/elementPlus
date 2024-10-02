@@ -180,6 +180,6 @@ function handleClose() {
   </transition>
 </template>
 
-<style>
+<style scoped>
 @import './style.css';
 </style>
