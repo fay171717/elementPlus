@@ -28,7 +28,7 @@
     "@fortawesome/fontawesome-svg-core": "^6.5.2",
     "@fortawesome/free-solid-svg-icons": "^6.5.2",
     "@fortawesome/vue-fontawesome": "^3.0.8",
-    "@lerna-lite/cli": "^3.8.0",
+    "@lerna-lite/cli": "^3.9.2",
     "@lerna-lite/publish": "^3.8.0",
     "@lerna-lite/version": "^3.8.0",
     "@popperjs/core": "^2.11.8",
@@ -68,9 +68,9 @@
     "@elementPlus/vite-plugins": "workspace:*",
     "@vitest/coverage-v8": "^1.6.0",
     "@vue/test-utils": "^2.4.6",
+    "elementPlus": "workspace:*",
     "jsdom": "^24.1.0",
     "lodash-es": "^4.17.21",
-    "elementPlus": "workspace:*",
     "vue": "^3.4.29"
   }
 }
