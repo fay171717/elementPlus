@@ -5,7 +5,7 @@ import { throttle } from "lodash-es";
 import { BUTTON_GROUP_CTX_KEY } from "./contants";
 import ErIcon from "../Icon/Icon.vue";
 
-defineOptions({
+defineOptions({ 
   name: "ErButton",
 });
 const props = withDefaults(defineProps<ButtonProps>(), {
@@ -25,7 +25,6 @@ const disabled = computed(() => ctx?.disabled || props?.disabled || false);
 const iconStyle = computed(() => ({
   marginRight: slots.default ? "6px" : "0px",
 }));
-
 
 const handleBtnClick = (e: MouseEvent) => emits("click", e);
 const handleBtnClickThrottle = throttle(
@@ -81,10 +80,17 @@ defineExpose<ButtonInstance>({
       :style="iconStyle"
       size="1x"
     />
+   
     <slot></slot>
   </component>
+
+
 </template>
 
-<style scoped>
+<style >
 @import "./style.css";
+
+
+
+
 </style>

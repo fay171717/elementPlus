@@ -6,6 +6,6 @@ import { withInstall } from "@elementPlus/utils";
 export const ErSelect = withInstall(Select);
 export const ErOption = withInstall(Option);
 
-console.log("Select", Select, "Option", Option);
+
 
 export * from "./types";

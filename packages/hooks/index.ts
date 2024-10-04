@@ -1,20 +1,21 @@
 import useClickOutside from "./useClickOutside";
 import useEventListener from "./useEventListener";
-import useId from "./useId";
 import useDisabledStyle from "./useDisabledStyle";
+import useFocusController from "./useFocusController";
 import useLocale from "./useLocale";
-import useZIndex from "./useZIndex";
 import useOffset from "./useOffset";
-import useFocusController from "./useFocousController";
+import useZIndex from "./useZIndex";
 import useProp from "./useProp";
-export{
-    useClickOutside,
-    useEventListener,
-    useDisabledStyle,
-    useId,
-    useLocale,
-    useZIndex,
-    useOffset,
-    useFocusController,
-    useProp
-}
+import useId from "./useId";
+
+export {
+  useClickOutside,
+  useEventListener,
+  useDisabledStyle,
+  useFocusController,
+  useZIndex,
+  useOffset,
+  useLocale,
+  useProp,
+  useId,
+};

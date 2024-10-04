@@ -1,4 +1,4 @@
-import { 
+import {
     ErButton,
     ErButtonGroup,
     ErIcon,
@@ -6,38 +6,42 @@ import {
     ErCollapseItem,
     ErAlert,
     ErTooltip,
-    ErPopconfirm,
     ErDropdown,
+    ErDropdownItem,
+    ErPopconfirm,
     ErMessage,
     ErNotification,
-    ErInput,
     ErMessageBox,
+    ErInput,
     ErLoading,
     ErSwitch,
     ErSelect,
+    ErOption,
     ErForm,
-    ErFormItem
-} from "../components";
-
-import type { Plugin } from "vue";
-
-export default [
+    ErFormItem,
+  } from "@elementPlus/components";
+  import type { Plugin } from "vue";
+  
+  export default [
     ErButton,
     ErButtonGroup,
     ErIcon,
-    ErCollapse, 
+    ErCollapse,
     ErCollapseItem,
     ErAlert,
     ErTooltip,
-    ErPopconfirm,
     ErDropdown,
+    ErDropdownItem,
+    ErPopconfirm,
     ErMessage,
     ErNotification,
-    ErInput,
     ErMessageBox,
+    ErInput,
     ErLoading,
     ErSwitch,
     ErSelect,
+    ErOption,
     ErForm,
-    ErFormItem
-] as Plugin[];
+    ErFormItem,
+  ] as Plugin[];
+  
