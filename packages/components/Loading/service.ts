@@ -25,9 +25,10 @@ function createLoading(opts: LoadingOptionsResolved) {
   });
 
   const setText = (text: string) => (data.text = text);
-
+  
   const destory = () => {
-    const target = data.parent;
+    //const target = data.parent;
+    const target = data.parent as HTMLElement; // 确保类型为 HTMLElement
     subtLoadingNumb(target);
     if (getLoadingNumb(target)) return;
     delay(() => {

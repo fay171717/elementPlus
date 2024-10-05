@@ -1,6 +1,7 @@
-import type { Preview } from "@storybook/vue3";
 import "elementPlus/dist/theme/index.css";
-const preview: Preview = {
+
+/** @type { import('@storybook/vue3').Preview } */
+const preview = {
   parameters: {
     controls: {
       matchers: {
@@ -12,4 +13,3 @@ const preview: Preview = {
 };
 
 export default preview;
-

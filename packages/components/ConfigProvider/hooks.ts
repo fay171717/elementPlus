@@ -69,7 +69,8 @@ import {
   ) {
     const instance = getCurrentInstance();
     const oldCfg = instance ? useGlobalConfig() : void 0;
-    const provideFn = app?.provide ?? (instance ? provide : void 0);
+   // const provideFn = app?.provide ?? (instance ? provide : void 0);
+    const provideFn = (app?.provide ?? (instance ? provide : void 0)) as typeof provide | undefined;
 
     if (!provideFn) {
       debugWarn(
